@@ -37,7 +37,7 @@ Then, use it to translate your strings.
 
 ```ts
 jt.onLangLoaded.subscribe(() => {
-  document.title = tg.translate("hello_world");
+  document.title = jt.translate("hello_world");
 });
 ```
 
